@@ -1,0 +1,25 @@
+package Practice;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class screenshotOfWebElement {
+
+	public static void main(String[] args) {
+		
+		System.setProperty("webdriver.chome.driver", "/home/eclipse-workspace/Driver/Selenium/Driver/chromdriver");
+		
+		WebDriver driver = new ChromeDriver();
+		
+		driver.get("https://letskodeit.com/");
+		
+		WebElement element = driver.findElement(By.xpath(""));
+		
+		element.getScreenshotAs(OutputType.FILE);
+
+	}
+
+}

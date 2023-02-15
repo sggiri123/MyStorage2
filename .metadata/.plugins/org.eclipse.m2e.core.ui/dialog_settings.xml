@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="/home/poshs/Pictures"/>
+			<item value="/home/poshs/Pictures/kite_Project"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="SeleniumPractice_001"/>
+			<item value="Cucumber_Framework"/>
+			<item value="simpleProject"/>
+			<item value="SimpleProject"/>
+			<item value="mavenProject"/>
+			<item value="MavenProject"/>
+			<item value="SmallProject_001"/>
+			<item value="MavenProject1.20"/>
+			<item value="maven_001_smallProject"/>
+			<item value="Amazon_001"/>
+			<item value="practice.project"/>
+			<item value="com.banking.kite"/>
+		</list>
+		<list key="name">
+			<item value="SeleniumPractice"/>
+			<item value="CucumberSimple"/>
+			<item value="MavenProject"/>
+			<item value="mavenProject"/>
+			<item value="SmallMaven"/>
+			<item value="SmallProject"/>
+			<item value="AmazonProject"/>
+			<item value="Practice of selenium concepts"/>
+			<item value="This is a kite project"/>
+		</list>
+		<list key="artifactId">
+			<item value="SeleniumPractice"/>
+			<item value="learnCucumber"/>
+			<item value="mavenSimple"/>
+			<item value="mavenProject"/>
+			<item value="MavenProject"/>
+			<item value="SmallMaven"/>
+			<item value="SmallProject"/>
+			<item value="AmazonProject"/>
+			<item value="kite_Project"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

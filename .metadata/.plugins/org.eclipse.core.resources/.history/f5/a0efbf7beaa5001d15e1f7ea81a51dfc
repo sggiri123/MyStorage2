@@ -1,0 +1,47 @@
+package StringPrograms;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class OccurenceOfEachChar {
+
+	public static void main(String[] args) {
+	  
+	      String [] arr = {"Shridhar", "Amol", "Shridhar", "Take"};
+	      
+	      Map<String, Integer> chars = new HashMap<String, Integer>(); 
+	      
+	      for(String ch: arr){
+	          if(!chars.containsKey(ch)){
+	              chars.put(ch, 1);	
+	          }
+	          else {  
+	              int count = chars.get(ch);
+	              chars.put(ch, count+1);
+	          }          
+	         
+	      }
+	      
+	      System.out.println(chars);
+	      
+	      String s = "Shridhar";
+	      char [] a = s.toCharArray();
+	      
+	      Map<Character, Integer> maps = new HashMap<>();
+	      for (char ch1:a) {
+	    	  int count =1;
+	    	  if (!maps.containsKey(maps)) {
+	    		  maps.put(ch1, 1);
+	    	  }
+	    	  else {
+	    		  maps.put(ch1, count+1);
+	    	  }
+	      }
+	      System.out.println(maps);
+	     
+	      
+	      
+	      
+	}
+
+}
